@@ -1,15 +1,14 @@
 from setuptools import setup,find_packages
 
-setup(name="slug",description="Un projet python permettant de convertir n'importe quelle chaine de caractère en slug",
-      author="Picard Aïshael ",
-      author_email="aishael.picard@gmail.com",
-      maintainer='borgellas Samuel',
-    maintainer_email='borgellassamuel@gmail.com',
-    url="",
+setup(name="Slug",description="Un projet Python qui permet de convertir n'importe quelle chaîne de caractères en slug ",
+      authors=["Borgellas Samuel","Picard Aïshael "],
+      author_email=["aishael.picard@gmail.com","borgellassamuel@gmail.com"],
+      
+    url="https://github.com/Aishael20/Slugify_Project/settings/access?guidance_task=",
     version="0.1",packages="find_packages()",
     entry_points={},
 
-    install_requires=[], classifiers=[
+    classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
