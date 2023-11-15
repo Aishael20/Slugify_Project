@@ -14,8 +14,7 @@ def slugify(chenn, separator="-"):
             chenn = chenn.replace(i, separator)
             if chenn[-1]  in to_replace :
                 chenn = chenn[:-1]
-            #if chenn[0] in to_replace:
-                #chenn=chenn[0:]
+            
     
     return chenn.strip().lower()
 
