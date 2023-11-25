@@ -1,14 +1,18 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="Slug",
-    description="Un projet Python qui permet de convertir n'importe quelle chaîne de caractères en slug",
-    author="Borgellas Samuel and Picard Aïshael",
-    author_email='aishael.picard@gmail.com and borgellassamuel@gmail.com',
-    url="https://github.com/Aishael20/Slugify_Project",
-    version="0.1",
+    name='Slugify_module',
+    version='0.1',
     packages=find_packages(),
+    install_requires=[],
     entry_points={},
+    author='Picard Aïshael && Borgellas Samuel',
+    author_email='aishael.picard@gmail.com',
+    description='Un separateur et modificateur de mots, SLUG',
+    long_description="Un projet Python qui permet de convertir n'importe quelle chaîne de caractères en slug.",
+    long_description_content_type='text/plain',
+    url="https://github.com/Aishael20/Slugify_Project",
+    license='MIT',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
@@ -17,6 +21,8 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: Implementation :: CPython',
-        'Programming Language :: Python :: Implementation :: PyPy'
-    ]
+        'Programming Language :: Python :: Implementation :: PyPy',
+    ],
+    keywords='Slugify security',
 )
+
